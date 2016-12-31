@@ -4,7 +4,6 @@ function getIndexToIns(arr, num) {
   var b;
   var newArr = arr.sort(function (a, b) {  return a - b;  });
   console.log(newArr);
-  
   for (var i = 0; i < newArr.length; i++) {
     // check where num belongs
     if (newArr[i] >= num) {
